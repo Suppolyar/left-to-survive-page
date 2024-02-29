@@ -1,7 +1,7 @@
 <template>
   <button
     @click="onBtnClick"
-    class="bg-center bg-btn-bg btn-bg bg-no-repeat py-10 px-24 text-[40px] my-4 uppercase"
+    class="bg-center bg-btn-bg btn-bg bg-no-repeat py-10 px-24 text-[40px] my-4 uppercase hover:scale-105 transition duration-150"
   >
     <span class="custom-button"> Скачать</span>
   </button>
@@ -14,8 +14,8 @@ defineOptions({
 
 const onBtnClick = () => {
   window.__GEM.detectAndDownload(
-    "13.2013983",
-    "https://static.gc.my.games/HawkedLoader.exe"
+    "0.2002134",
+    "https://static.gc.my.games/LeftToSurviveLoader.exe"
   );
 };
 </script>
