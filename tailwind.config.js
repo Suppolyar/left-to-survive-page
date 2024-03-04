@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        'logo-screen': {'raw': '(max-height: 800px)'}
+        'logo-screen': {'raw': '(max-height: 924px)'}
       },
       backgroundImage: {
         "lts-bg": "url('@/assets/bg.jpeg')",
